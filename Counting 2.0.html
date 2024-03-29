@@ -1,0 +1,36 @@
+<!Doctype html>
+<html lang="en"><title>Counting 2.0</title>
+  <h1>Calculator</h1>
+  <hr>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+    <link href="Unusual2.0.css" rel="stylesheet" type="text/css">
+  </head>
+  <br><center>
+  <body>
+    <button class="cal" onclick="calculator += 1; alert(calculator)">1</button>
+    <button class="cal" onclick="calculator += 2; alert(calculator)">2</button>
+    <button class="cal" onclick="calculator += 3; alert(calculator)">3</button>
+    <button class="cal" onclick="calculator += '+'; alert(calculator)">+</button><br><br>
+    <button class="cal" onclick="calculator += 4; alert(calculator)">4</button>
+    <button class="cal" onclick="calculator += 5; alert(calculator)">5</button>
+    <button class="cal" onclick="calculator += 6; alert(calculator)">6</button>
+    <button class="cal" onclick="calculator += '-'; alert(calculator)">-</button><br><br>
+    <button class="cal" onclick="calculator += 7; alert(calculator)">7</button>
+    <button class="cal" onclick="calculator += 8; alert(calculator)">8</button>
+    <button class="cal" onclick="calculator += 9; alert(calculator)">9</button>
+    <button class="cal" onclick="calculator += '*'; alert(calculator)">*</button><br><br>
+    <button class="cal" onclick="calculator += 10; alert(calculator)">10</button>
+    <button class="cal" onclick="calculator += '/'; alert(calculator)">/</button>
+    <button class="cal" onclick="calculator = eval(calculator); alert(calculator)">=</button>
+    <button class="cal" onclick="calculator *= 0; alert(`Cleared.
+${calculator}`)">Clear</button>
+  </body>
+  <script>
+    let calculator = ''; 
+  </script>
+  </center><br><hr>
+</html>
