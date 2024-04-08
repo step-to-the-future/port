@@ -148,7 +148,7 @@ nav ul li a{
   font-size: large;
 }
 }
-@media  only screen and (orientation: portrait) and (max-device-height: 380px){
+@media  only screen and (orientation: portrait) and (max-device-width: 380px) and (-webkit-device-pixel-ratio: 3){
   body{
     background-image: url(mazaic.webp);
     background-position: center;
