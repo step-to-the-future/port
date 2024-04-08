@@ -261,7 +261,7 @@ nav ul li a{
   margin-bottom: 11%;
 }
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 340px){
   body{
     background-image: url(mazaic.webp);
     background-position: center;
