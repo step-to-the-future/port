@@ -281,7 +281,7 @@ nav ul li a{
     width: 330px;
     z-index: 1000;
     border-radius: 20px;
-    margin-left: 10px;
+    margin-left: 0;
   }
   nav ul li{
     list-style: none;
