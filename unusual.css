@@ -168,12 +168,12 @@ nav ul li a{
     width: 365px;
     z-index: 1000;
     border-radius: 20px;
-    margin-left: 10px;
+    margin-left: 15px;
   }
   nav ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 5px;
 
   }
   nav ul li a{
