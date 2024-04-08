@@ -148,7 +148,7 @@ nav ul li a{
   font-size: large;
 }
 }
-@media screen and (max-width: 414px){
+@media screen and (max-width: 320px){
   body{
     background-image: url(mazaic.webp);
     background-position: center;
